@@ -33,7 +33,7 @@ const ui = {
         mensagemVazia.style.display = "none"
         pensamentosParaRenderizar.forEach(ui.adicionarPensamentoNaLista)
       } 
-    }
+    } 
     catch {
       alert('Erro ao renderizar pensamentos')
     }
